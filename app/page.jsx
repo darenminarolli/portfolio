@@ -3,6 +3,8 @@ import ProfileImg from '../public/Image.png'
 import Button from "./components/ui/Button"
 import Quote from "./components/ui/Quote"
 import SectionDivider from "./components/ui/SectionDivider"
+import Cart from "./components/Cart"
+import Skills from "./components/Skills"
 export default function Home() {
   return (
     <>
@@ -28,9 +30,23 @@ export default function Home() {
         </div>
       </section>
         <Quote/>
-        <section className="w-[1024px] m-auto flex justify-between items-center mt-24 ">
+        <section className="w-[1024px] m-auto ">
+        <div className=" flex justify-between items-center mt-24 ">
         <SectionDivider name='projects'/>
         <h1 className="items-center">View all ~~{">"}</h1>
+        </div>
+        <div className=" mt-24 flex items-start gap-4  ">
+         <Cart/>
+         <Cart/>
+         <Cart/>
+        </div>
+         <SectionDivider name='skills'/>
+         <div className="flex flex-wrap gap-2 float-right">
+
+         <Skills title='Languages' desc='TypeScript Javascript'/>
+         <Skills title='Libraries' desc='Bootstrap Tailwind Antd Mui React-Bootstrap '/>
+         </div>
+
         </section>
     </>  
   )
