@@ -5,6 +5,8 @@ import Quote from "./components/ui/Quote"
 import SectionDivider from "./components/ui/SectionDivider"
 import Cart from "./components/Cart"
 import Skills from "./components/Skills"
+import About from "./components/About"
+import Contact from "./components/Contact"
 export default function Home() {
   return (
     <>
@@ -29,25 +31,30 @@ export default function Home() {
           <Image src={ProfileImg} className="mt-[-100px] " alt="profile" width={457} height={386} />
         </div>
       </section>
-        <Quote/>
-        <section className="w-[1024px] m-auto ">
+      <Quote />
+      <section id="works" className="w-[1024px] m-auto ">
         <div className=" flex justify-between items-center mt-24 ">
-        <SectionDivider name='projects'/>
-        <h1 className="items-center">View all ~~{">"}</h1>
+          <SectionDivider name='projects' />
+          <h1 className="items-center">View all ~~{">"}</h1>
         </div>
         <div className=" mt-24 flex items-start gap-4  ">
-         <Cart/>
-         <Cart/>
-         <Cart/>
+          <Cart />
+          <Cart />
+          <Cart />
         </div>
-         <SectionDivider name='skills'/>
-         <div className="flex flex-wrap gap-2 float-right">
-
-         <Skills title='Languages' desc='TypeScript Javascript'/>
-         <Skills title='Libraries' desc='Bootstrap Tailwind Antd Mui React-Bootstrap '/>
-         </div>
-
-        </section>
-    </>  
+        <SectionDivider name='skills' />
+        <div className=" w-[750px] flex flex-wrap justify-end gap-2  mb-24 float-right">
+          <Skills title='Languages' desc='TypeScript Javascript' />
+          <Skills title='Libraries' desc='Bootstrap Tailwind Antd Mui React-Bootstrap React-Router ' />
+          <Skills title='Frameworks' desc='React Next Redux' />
+          <Skills title='Additional Skills' desc='Organizational skills, Problem solving, Computer skills, etc... ' />
+          <Skills title='Other' desc='Html5 Css Git(Github/Gitlab)' />
+        </div>
+        <SectionDivider name='about-me'/>
+        <About/>
+        <SectionDivider name='contacts'/>
+        <Contact/>
+      </section>
+    </>
   )
 }

@@ -12,9 +12,9 @@ const Header = () => {
                 </div>
                 <ul className="flex items-start gap-8">
                     <li><a href="#" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>home</a></li>
-                    <li><a href="#" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>works</a></li>
-                    <li><a href="#" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>about-me</a></li>
-                    <li><a href="#" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>contacts</a></li>
+                    <li><a href="#works" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>works</a></li>
+                    <li><a href="#about" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>about-me</a></li>
+                    <li><a href="#contact" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>contacts</a></li>
                 </ul>
             </nav>
         </>
