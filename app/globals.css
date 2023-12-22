@@ -12,13 +12,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-    color: #fff;
-
+  color: #fff;
+  scroll-behavior: smooth;
 }
 
 body{
   background-color: #282C33;
-  scroll-behavior: smooth;
 }
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
