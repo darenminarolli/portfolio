@@ -1,5 +1,4 @@
 import Image from "next/image"
-import ProfileImg from '../public/Image.png'
 import Button from "./components/ui/Button"
 import Quote from "./components/ui/Quote"
 import SectionDivider from "./components/ui/SectionDivider"
