@@ -6,12 +6,12 @@ import ProjectImg from '../../public/Work.jpg'
 const Cart = () => {
   return (
     <>
-    <div className=' w-fit  justify-center border border-[#ABB2BF]'>
+    <div className=' w-full justify-center border border-[#ABB2BF]'>
         <Image src={ProjectImg}
          alt='cartphoto' 
          width={330} 
          height={201}
-         className=''
+         className='w-full'
          />
         <div className='flex gap-2 p-2 border-b border-[#ABB2BF] '>
             <h3 className='text-[#ABB2BF]  not-italic ' >HTML5</h3>

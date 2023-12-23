@@ -4,20 +4,18 @@ import HeaderName from './ui/HeaderName'
 const Footer = () => {
     return (
         <>
-            <footer className='border-t border-[#ABB2BF] flex flex-col pb-8 mt-24'>
-             
-
-                <div className='flex justify-around pt-8'>
-                    <div className='flex flex-col gap-4 items-start'>
-                        <div className='flex gap-6'>
+            <footer className=' w-full border-t border-[#ABB2BF] flex flex-col pb-8 mt-24'>
+                <div className='flex flex-col md:flex-row justify-around pt-8'>
+                    <div className='flex flex-col gap-4  items-center md:items-start'>
+                        <div className='flex items-center  gap-6'>
                             <HeaderName />
                             <p className='text-[#ABB2BF]'>darenminarolli@gmail.com</p>
                         </div>
                         <h3>Front-end developer</h3>
                     </div>
-                    <div className='flex flex-col gap-4 items-center'>
+                    <div className='flex flex-col gap-4 items-center pt-3'>
                         <h1 className=''>Media</h1>
-                        <div className='flex f'>
+                        <div className='flex '>
                             <a href="https://www.instagram.com/programming.al?igsh=MTA3bHhyMHQ0dmo5cQ%3D%3D&utm_source=qr">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 50 50">
     <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z" fill='#ABB2BF'></path>

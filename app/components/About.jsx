@@ -5,7 +5,7 @@ import Button from './ui/Button'
 const About = () => {
   return (
     <>
-      <div id='about' className="flex justify-between items-center">
+      <div id='about' className="flex flex-col sm:flex-row justify-between items-center">
           <article className='flex flex-col gap-4'>
             <p className='text-[#ABB2BF]' >Hello, i’m Daren!</p>
             <p className='text-[#ABB2BF]' >I’m a self-taught front-end developer based in Tirana, Albania. I can develop websites from scratch and raise them into modern user-friendly web experiences.</p>

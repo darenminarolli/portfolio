@@ -13,12 +13,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className='width-[1024px] m-auto '>
-
+        <main className=' flex justify-center items-center flex-col max-w-screen-sm  md:max-w-7xl mx-auto sm:px-16 px-6 '>
         <Header/>
+
         {children}
-        <Footer/>
         </main>
+        <Footer/>
         </body>
     </html>
   )
