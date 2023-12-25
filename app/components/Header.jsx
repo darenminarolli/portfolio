@@ -11,7 +11,8 @@ const Header = () => {
                 <HeaderName />
                 <ul className="flex items-start gap-8">
                     <li><a href="#" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>home</a></li>
-                    <li><a href="#works" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>works</a></li>
+                    <li><a href="#projects" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>projects</a></li>
+                    <li><a href="#skills" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>skills</a></li>
                     <li><a href="#about" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>about-me</a></li>
                     <li><a href="#contacts" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>contacts</a></li>
                 </ul>
@@ -39,9 +40,10 @@ const Header = () => {
                                 <rect x="4" y="3" width="24" height="2" transform="rotate(45 4 3)" fill="#D9D9D9" />
                             </svg>
                         </div>
-                        <ul className="flex flex-col items-start gap-8 pt-6">
+                        <ul onClick={()=> (setIsModalVisible(false))} className="flex flex-col items-start gap-8 pt-6">
                     <li><a href="#" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>home</a></li>
-                    <li><a href="#works" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>works</a></li>
+                    <li><a href="#projects" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>projects</a></li>
+                    <li><a href="#skills" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>skills</a></li>
                     <li><a href="#about" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>about-me</a></li>
                     <li><a href="#contacts" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>contacts</a></li>
                 </ul>

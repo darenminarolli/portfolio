@@ -5,6 +5,7 @@ import Skills from "./components/Skills"
 import About from "./components/About"
 import Contact from "./components/Contact"
 import Headersection from "./components/Headersection"
+import Button from "./components/ui/Button"
 export default function Home() {
   return (
     <>
@@ -13,9 +14,10 @@ export default function Home() {
       <section id="projects" className="w-full  ">
       <div className=" flex justify-between items-center">
           <SectionDivider name='projects' />
-          <p className=" md:block items-center w-1/4  text-sm sm:text-sm">View all ~~{">"}</p>
+          <p className="hidden md:block items-center w-1/4  text-sm sm:text-sm">View all ~~{">"}</p>
         </div>
-        <div className="sm:mt-14 flex flex-col md:flex-row justify-center  items-start gap-4 ">
+          <Button name='View all'/>
+        <div className="mt-14 flex flex-col md:flex-row justify-center  items-start gap-y-8 md:gap-4 ">
           <Cart />
           <Cart />
           <Cart />
@@ -23,7 +25,7 @@ export default function Home() {
       </section>
       <section id="skills" className="w-full">
       <SectionDivider name='skills' />
-        <div className=" w-full md:w-[750px] flex flex-col md:flex-row md:flex-wrap justify-center md:justify-end gap-2  mb-24 sm:float-right">
+        <div className=" w-full md:w-[750px] flex flex-col md:flex-row md:flex-wrap justify-center md:justify-end gap-2 gap-y-6  mb-24 sm:float-right">
           <Skills title='Languages' desc='TypeScript Javascript' />
           <Skills title='Libraries' desc='Bootstrap Tailwind Antd Mui React-Bootstrap React-Router ' />
           <Skills title='Frameworks' desc='React Next Redux' />
