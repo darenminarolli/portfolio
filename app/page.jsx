@@ -1,5 +1,3 @@
-import Image from "next/image"
-import Button from "./components/ui/Button"
 import Quote from "./components/ui/Quote"
 import SectionDivider from "./components/ui/SectionDivider"
 import Cart from "./components/Cart"

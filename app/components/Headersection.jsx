@@ -1,5 +1,5 @@
 import Image from "next/image"
-import ProfileImg from '../../public/image.png'
+import ProfileImg from '../../public/Image.png'
 import Button from "./ui/Button"
 
 const Headersection = () => {
