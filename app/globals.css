@@ -39,3 +39,6 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #656464;
 }
+dialog::backdrop{
+  height: 100px;
+}
