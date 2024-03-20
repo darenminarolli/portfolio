@@ -4,7 +4,7 @@ import HeaderName from './ui/HeaderName'
 const Footer = () => {
     return (
         <>
-            <footer className=' w-full border-t border-[#ABB2BF] flex flex-col pb-8 mt-24'>
+            <footer className=' w-full border-t border-[#ABB2BF] flex flex-col pb-8 mt-24 '>
                 <div className='flex flex-col md:flex-row justify-around pt-8'>
                     <div className='flex flex-col gap-4  items-center md:items-start'>
                         <div className='flex items-center  gap-6'>

@@ -22,9 +22,9 @@ export default function Home() {
         </div>
           {/* <Button name='View all'/> */}
         <div className="mt-14 flex flex-col md:flex-row justify-center  items-start gap-y-8 md:gap-4 ">
-          <Cart source={AntikImg} endpoint={'https://the-antik.vercel.app/'} tech={'React Next Tailwind'}/>
-          <Cart source={BarberImg} endpoint={'https://barbershop-livid.vercel.app/'} tech={'React Next Tailwind'} />
-          <Cart source={Vans} endpoint={'https://daren-vans.netlify.app/'} tech={'React React-Router-V6 Bootstrap '} />
+          <Cart source={AntikImg}  title={'Pub Blog'}    endpoint={'https://the-antik.vercel.app/'} tech={'React Next Tailwind'}/>
+          <Cart source={BarberImg} title={'BarberShop'}   endpoint={'https://barbershop-livid.vercel.app/'} tech={'React Next Tailwind'} />
+          <Cart source={Vans}      title={'Vans Website'} endpoint={'https://daren-vans.netlify.app/'} tech={'React React-Router-V6 Bootstrap '} />
         </div>
       </section>
       <section id="skills" className="w-full">

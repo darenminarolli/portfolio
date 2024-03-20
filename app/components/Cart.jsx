@@ -3,7 +3,7 @@ import React from 'react'
 import Button from './ui/Button'
 
 
-const Cart = ({source, endpoint, tech}) => {
+const Cart = ({source, title, desc, endpoint, tech}) => {
   return (
     <>
     <div className=' w-full justify-center h-[500px]  border-2 border-[#ABB2BF]'>
@@ -21,7 +21,7 @@ const Cart = ({source, endpoint, tech}) => {
             <h3 className='text-[#ABB2BF]  not-italic ' >NEXT</h3> */}
         </div>
         <div className='p-4 gap-4'>
-            <h1 className='text-2xl font-semibold'>ProtectX</h1>
+            <h1 className='text-2xl font-semibold'>{title}</h1>
             <p className='py-4'>Lorem ipsum dolor sit amet.</p>
             <Button name='Live <~>' endpoint={endpoint}/>
         </div>
