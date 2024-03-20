@@ -3,7 +3,7 @@ import Cart from '../components/Cart'
 import BarberImg from "../../public/barber-project.png"
 import AntikImg from "../../public/Antik.PNG"
 import Vans from "../../public/vans.png"
-import Ai from "../../public/ai.png"
+import Ai from "../../public/Ai.PNG"
 import Dentist from "../../public/Dentist.PNG"
 const page = () => {
     return (
