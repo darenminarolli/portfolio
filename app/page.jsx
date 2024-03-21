@@ -21,6 +21,7 @@ export default function Home() {
           <ViewMore/>
         </div>
           {/* <Button name='View all'/> */}
+          <a href="/projects" className="md:hidden">View All</a>
         <div className="mt-14 flex flex-col md:flex-row justify-center  items-start gap-y-8 md:gap-4 ">
           <Cart source={AntikImg}  title={'Pub Blog'}    endpoint={'https://the-antik.vercel.app/'} tech={'React Next Tailwind'}/>
           <Cart source={BarberImg} title={'BarberShop'}   endpoint={'https://barbershop-livid.vercel.app/'} tech={'React Next Tailwind'} />
