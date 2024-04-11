@@ -14,10 +14,11 @@ const page = () => {
             </hgroup>
             <div className="mt-14 grid grid-cols-1 md:grid-cols-3  items-start gap-y-8 md:gap-4 ">
                 <Cart source={AntikImg} title={'Pub Blog'} endpoint={'https://the-antik.vercel.app/'} tech={'React Next Tailwind'} />
-                <Cart source={BarberImg} title={'BarberShop'} endpoint={'https://barbershop-livid.vercel.app/'} tech={'React Next Tailwind'} />
+                <Cart source={'https://daren.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbarber-project.c94880ca.png&w=640&q=75'} title={'Barber Shop'} endpoint={'https://barbershop-livid.vercel.app/'} tech={'React Next Tailwind'} />
                 <Cart source={Vans} title={'Vans Website'} endpoint={'https://daren-vans.netlify.app/'} tech={'React React-Router-V6 Bootstrap '} />
                 <Cart source={Ai} title={'Chat Bot'} endpoint={'https://ai-next-huggingface-orpin.vercel.app/'} tech={'React TypeScript Next '} />
                 <Cart source={Dentist} title={'Dentsit Blog'} endpoint={'https://dentist-blog.vercel.app/Daren-Test'} tech={'React Next MongoDB Mongoose '} />
+                <Cart  source={'https://miro.medium.com/v2/resize:fit:1400/1*9oOlDJKiLq1KhGoOivv51A.png'} title={'Node, Express Crud App'} endpoint={'https://github.com/darenminarolli/Crud-Node-App'} tech={'Node.js Express.js MongoDB Mongoose'}/>
             </div>
         </section>
     )
