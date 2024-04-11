@@ -8,7 +8,7 @@ const Cart = ({source, title, desc, endpoint, tech}) => {
     <>
     <div className=' w-full justify-center h-[500px]  border-2 border-[#ABB2BF]'>
        <div className='h-[300px]'>
-        <img src={source}
+        <Image src={source}
          alt='cartphoto' 
          height={300}
 
