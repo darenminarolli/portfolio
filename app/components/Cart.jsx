@@ -3,12 +3,12 @@ import React from 'react'
 import Button from './ui/Button'
 
 
-const Cart = ({source, title, desc, endpoint, tech}) => {
+const Cart = ({source, title, desc, endpoint, tech, live}) => {
   return (
     <>
     <div className=' w-full justify-center h-[500px]  border-2 border-[#ABB2BF]'>
        <div className='h-[300px]'>
-        <Image src={source}
+        <img src={source}
          alt='cartphoto' 
          height={300}
 
@@ -24,7 +24,7 @@ const Cart = ({source, title, desc, endpoint, tech}) => {
         <div className='p-4 gap-4'>
             <h1 className='text-2xl font-semibold'>{title}</h1>
             <p className='py-4'>Lorem ipsum dolor sit amet.</p>
-            <Button name='Live <~>' endpoint={endpoint}/>
+            <Button name={live ?'Live <~>':'Code <~>'} endpoint={endpoint}/>
         </div>
     </div>
     </>
