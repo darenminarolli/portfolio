@@ -1,6 +1,5 @@
 import React from 'react'
 import Cart from '../components/Cart'
-import TextToImg from '../../public/text2image.png'
 const page = () => {
     return (
         <section className='w-full py-12'>
