@@ -23,9 +23,9 @@ export default function Home() {
           {/* <Button name='View all'/> */}
           <a href="/projects" className="md:hidden">View All</a>
         <div className="mt-14 flex flex-col md:flex-row justify-center  items-start gap-y-8 md:gap-4 ">
-          <Cart source={'https://daren.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FAntik.bf8868d5.PNG&w=640&q=75'}  title={'Pub Blog'}    endpoint={'https://the-antik.vercel.app/'} tech={'React Next Tailwind'} live={true}/>
-          <Cart source={'https://daren.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbarber-project.c94880ca.png&w=640&q=75'} title={'BarberShop'}   endpoint={'https://barbershop-livid.vercel.app/'} tech={'React Next Tailwind'} live={true} />
-          <Cart source={'https://daren.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvans.cf0427a2.png&w=750&q=75'}      title={'Vans Website'} endpoint={'https://daren-vans.netlify.app/'} tech={'React React-Router-V6 Bootstrap '} live={true} />
+          <Cart source={AntikImg}  title={'Pub Blog'}    endpoint={'https://the-antik.vercel.app/'} tech={'React Next Tailwind'} live={true}/>
+          <Cart source={BarberImg} title={'BarberShop'}   endpoint={'https://barbershop-livid.vercel.app/'} tech={'React Next Tailwind'} live={true} />
+          <Cart source={Vans}      title={'Vans Website'} endpoint={'https://daren-vans.netlify.app/'} tech={'React React-Router-V6 Bootstrap '} live={true} />
         </div>
       </section>
       <section id="skills" className="w-full">
