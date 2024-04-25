@@ -7,6 +7,7 @@ import Barber from '../../public/barber-project.png'
 import Ai from '../../public/Ai.PNG'
 import TextToImg from  '../../public/Text2Image.PNG'
 import Node from '../../public/Node.PNG'
+import Paws from '../../public/Paws.PNG'
 const page = () => {
     return (
         <section className='w-full py-12'>
@@ -22,7 +23,7 @@ const page = () => {
                 <Cart source={Dentist} title={'Dentsit Blog'} endpoint={'https://dentist-blog.vercel.app/Daren-Test'} tech={'React Next MongoDB Mongoose '} live={true}/>
                 <Cart  source={Node} title={'Node, Express Crud App'} endpoint={'https://github.com/darenminarolli/Crud-Node-App'} tech={'Node.js Express.js MongoDB Mongoose'} live={false}/>
                 <Cart  source={TextToImg} title={'Text to Image Ai'} endpoint={'https://text2image-beta.vercel.app/'} tech={'Html Css Javascript'} live={true}/>
-
+                <Cart  source={Paws} title={'Tinder 4 dogs '} endpoint={'https://paws-front.vercel.app/'} tech={'Next tailwind Aceternity UI'} live={true}/>
             </div>
         </section>
     )
