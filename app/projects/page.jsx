@@ -23,7 +23,7 @@ const page = () => {
                 <Cart source={Dentist} title={'Dentsit Blog'} endpoint={'https://dentist-blog.vercel.app/Daren-Test'} tech={'React Next MongoDB Mongoose '} live={true}/>
                 <Cart  source={Node} title={'Node, Express Crud App'} endpoint={'https://github.com/darenminarolli/pawsnpals'} tech={'Node.js Express.js MongoDB Mongoose'} live={false}/>
                 <Cart  source={TextToImg} title={'Text to Image Ai'} endpoint={'https://text2image-beta.vercel.app/'} tech={'Html Css Javascript Hugging Face'} live={true}/>
-                <Cart  source={Paws} title={'Tinder 4 dogs '} endpoint={'https://paws-front.vercel.app/'} tech={'Next tailwind Aceternity UI'} live={true}/>
+                <Cart  source={Paws} title={'Tinder 4 dogs '} endpoint={'https://paws-front.vercel.app/'} tech={'Next.js tailwind Node.js Express.js MongoDB Mongoose '} live={true}/>
             </div>
         </section>
     )
