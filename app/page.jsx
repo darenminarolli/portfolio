@@ -33,7 +33,7 @@ export default function Home() {
         <div className=" w-full md:w-[750px] flex flex-col md:flex-row md:flex-wrap justify-center md:justify-end gap-2 gap-y-6  mb-24 sm:float-right">
           <Skills title='Languages' desc='TypeScript Javascript' />
           <Skills title='Libraries' desc='Bootstrap Tailwind Antd Mui React-Bootstrap React-Router Redux ' />
-          <Skills title='Frameworks' desc='React Next ' />
+          <Skills title='Frameworks' desc='React Next Node Express' />
           <Skills title='Additional Skills' desc='Organizational skills, Problem solving, Computer skills, etc... ' />
           <Skills title='Other' desc='Html5 Css Git(Github/Gitlab) MongoDB Mongoose' />
         </div>
