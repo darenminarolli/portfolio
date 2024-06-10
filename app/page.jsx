@@ -5,11 +5,10 @@ import Skills from "./components/Skills"
 import About from "./components/About"
 import Contact from "./components/Contact"
 import Headersection from "./components/Headersection"
-import Button from "./components/ui/Button"
 import ViewMore from "./components/ui/ViewMore"
-import BarberImg from "../public/barber-project.png"
 import AntikImg from "../public/Antik.PNG"
 import Vans from "../public/Capture.PNG"
+import Eureka from "../public/Eureka.png"
 export default function Home() {
   return (
     <>
@@ -24,7 +23,7 @@ export default function Home() {
           <a href="/projects" className="md:hidden">View All</a>
         <div className="mt-14 flex flex-col md:flex-row justify-center  items-start gap-y-8 md:gap-4 ">
           <Cart source={AntikImg}  title={'Pub Blog'}    endpoint={'https://the-antik.vercel.app/'} tech={'React Next Tailwind'} live={true}/>
-          <Cart source={BarberImg} title={'BarberShop'}   endpoint={'https://barbershop-livid.vercel.app/'} tech={'React Next Tailwind'} live={true} />
+          <Cart  source={Eureka} title={'Eureka Soft '} endpoint={'https://eureka-dev.vercel.app/'} tech={'React Next.js Tailwind '} live={true}/>
           <Cart source={Vans}      title={'Vans Website'} endpoint={'https://daren-vans.netlify.app/'} tech={'React React-Router-V6 Bootstrap '} live={true} />
         </div>
       </section>

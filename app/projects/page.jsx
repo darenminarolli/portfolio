@@ -1,13 +1,13 @@
 import React from 'react'
 import Cart from '../components/Cart'
 import Antik from '../../public/Antik.PNG'
-import Dentist from '../../public/Dentist.PNG'
 import Vans from '../../public/Capture.PNG'
 import Barber from '../../public/barber-project.png'
 import Ai from '../../public/Ai.PNG'
 import TextToImg from  '../../public/Text2Image.PNG'
 import Node from '../../public/Node.PNG'
 import Paws from '../../public/Paws.PNG'
+import Eureka from '../../public/Eureka.png'
 const page = () => {
     return (
         <section className='w-full py-12'>
@@ -20,10 +20,10 @@ const page = () => {
                 <Cart source={Barber} title={'Barber Shop'} endpoint={'https://barbershop-livid.vercel.app/'} tech={'React Next Tailwind'} live={true} />
                 <Cart source={Vans} title={'Vans Website'} endpoint={'https://daren-vans.netlify.app/'} tech={'React React-Router-V6 Bootstrap '} live={true} />
                 <Cart source={Ai} title={'Chat Bot'} endpoint={'https://ai-next-huggingface-orpin.vercel.app/'} tech={'React TypeScript Next '}  live={true}/>
-{/*                 <Cart source={Dentist} title={'Dentsit Blog'} endpoint={'https://dentist-blog.vercel.app/Daren-Test'} tech={'React Next MongoDB Mongoose '} live={true}/> */}
                 <Cart  source={Node} title={'Node, Express Crud App'} endpoint={'https://github.com/darenminarolli/pawsnpals'} tech={'Node.js Express.js MongoDB Mongoose'} live={false}/>
                 <Cart  source={TextToImg} title={'Text to Image Ai'} endpoint={'https://text2image-beta.vercel.app/'} tech={'Html Css Javascript Hugging Face'} live={true}/>
-                <Cart  source={Paws} title={'Tinder 4 dogs '} endpoint={'https://paws-front.vercel.app/'} tech={'Next.js tailwind Node.js Express.js MongoDB Mongoose '} live={true}/>
+                <Cart  source={Paws} title={'Tinder 4 dogs '} endpoint={'https://paws-front.vercel.app/'} tech={'Next.js Tailwind Node.js Express.js MongoDB Mongoose '} live={true}/>
+                <Cart  source={Eureka} title={'Eureka Soft '} endpoint={'https://eureka-dev.vercel.app/'} tech={'React Next.js Tailwind '} live={true}/>
             </div>
         </section>
     )

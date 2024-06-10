@@ -1,20 +1,40 @@
 'use client'
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import { useRouter } from "next/navigation"
 import HeaderName from "./ui/HeaderName"
 
 
 const Header = () => {
+    const router = useRouter()
     const [isModalVisible, setIsModalVisible] = useState(false)
+    useEffect(() => {
+        switch (location.hash) {
+          case '#about':
+            document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+            break;
+          case '#contacts':
+            document.getElementById('contacts')?.scrollIntoView({ behavior: 'smooth' });
+            break;
+            case '#skills':
+                document.getElementById('skills')?.scrollIntoView({ behavior:'smooth' });
+            break;
+            case '#projects':
+                document.getElementById('projects')?.scrollIntoView({ behavior:'smooth' });
+            break;
+          default:
+            break;
+        }
+      }, [router]);
     return (
         <>
             <nav className="w-full mx-auto pt-16 hidden md:flex  justify-between items-end  ">
                 <HeaderName />
                 <ul className="flex items-start gap-8">
                     <li><a href="#" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>home</a></li>
-                    <li><a href="#projects" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>projects</a></li>
-                    <li><a href="#skills" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>skills</a></li>
-                    <li><a href="#about" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>about-me</a></li>
-                    <li><a href="#contacts" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>contacts</a></li>
+                    <li><a href="/#projects" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>projects</a></li>
+                    <li><a href="/#skills" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>skills</a></li>
+                    <li><a href="/#about" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>about-me</a></li>
+                    <li><a href="/#contacts" className="text-[#ABB2BF] hover:text-[#fff] text-4xl md:text-base "><span className="text-[#C778DD]">#</span>contacts</a></li>
                 </ul>
             </nav>
             
