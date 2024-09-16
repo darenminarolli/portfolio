@@ -8,6 +8,7 @@ import TextToImg from  '../../public/Text2Image.PNG'
 import Node from '../../public/Node.PNG'
 import Paws from '../../public/Paws.PNG'
 import Eureka from '../../public/Eureka.png'
+import Events from '../../public/Events.png'
 const page = () => {
     return (
         <section className='w-full py-12'>
@@ -24,6 +25,7 @@ const page = () => {
                 <Cart  source={TextToImg} title={'Text to Image Ai'} endpoint={'https://text2image-beta.vercel.app/'} tech={'Html Css Javascript Hugging Face'} live={true}/>
                 <Cart  source={Paws} title={'Tinder 4 dogs '} endpoint={'https://paws-front.vercel.app/'} tech={'Next.js Tailwind Node.js Express.js MongoDB Mongoose '} live={true}/>
                 <Cart  source={Eureka} title={'Eureka Soft '} endpoint={'https://eureka-dev.vercel.app/'} tech={'React Next.js Tailwind '} live={true}/>
+                <Cart source={Events} title={'Events Manager'} endpoint={'https://event-manager-project.vercel.app/'} tech={'React React-Router Tailwind Node Express'} live={true} />
             </div>
         </section>
     )
