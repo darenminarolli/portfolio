@@ -6,7 +6,7 @@ import About from "./components/About"
 import Contact from "./components/Contact"
 import Headersection from "./components/Headersection"
 import ViewMore from "./components/ui/ViewMore"
-import AntikImg from "../public/Antik.PNG"
+import SafeIndex from '../public/SafeIndex.png'
 import Events from "../public/Events.png"
 import Eureka from "../public/Eureka.png"
 export default function Home() {
@@ -19,10 +19,9 @@ export default function Home() {
           <SectionDivider name='projects' />
           <ViewMore/>
         </div>
-          {/* <Button name='View all'/> */}
           <a href="/projects" className="md:hidden">View All</a>
         <div className="mt-14 flex flex-col md:flex-row justify-center  items-start gap-y-8 md:gap-4 ">
-          <Cart source={AntikImg}  title={'Pub Blog'}    endpoint={'https://the-antik.vercel.app/'} tech={'React Next Tailwind'} live={true}/>
+          <Cart source={SafeIndex}  title={'Safe Index'}    endpoint={'https://secure-index.vercel.app'} tech={'React Next Tailwind'} live={true}/>
           <Cart  source={Eureka} title={'Eureka Soft '} endpoint={'https://eureka-dev.vercel.app/'} tech={'React Next.js Tailwind '} live={true}/>
           <Cart source={Events} title={'Events Manager'} endpoint={'https://event-manager-project.vercel.app/'} tech={'React React-Router Tailwind Node Express'} live={true} />
         </div>

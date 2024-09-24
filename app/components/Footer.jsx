@@ -11,7 +11,7 @@ const Footer = () => {
                             <HeaderName />
                             <p className='text-[#ABB2BF]'>darenminarolli@gmail.com</p>
                         </div>
-                        <h3>Front-end developer</h3>
+                        <h3>Web developer</h3>
                     </div>
                     <div className='flex flex-col gap-4 items-center pt-3'>
                         <h1 className=''>Media</h1>
